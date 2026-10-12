@@ -1,0 +1,418 @@
+{
+  "A0_FAFO": [
+    false,
+    false,
+    {
+      "name": "realign",
+      "override_params": {
+        "rounds": 1,
+        "bw": 1
+      },
+      "meta_mode": "off",
+      "fixed_alg": "GA"
+    },
+    {}
+  ],
+  "U2_oper_s4": [
+    true,
+    false,
+    {
+      "name": "realign",
+      "override_params": {
+        "rounds": 1,
+        "bw": 1
+      },
+      "meta_mode": "operator",
+      "fixed_alg": "GA",
+      "slots": 4
+    },
+    {}
+  ],
+  "C0_Y2": [
+    true,
+    false,
+    {
+      "name": "realign",
+      "override_params": {
+        "rounds": 1,
+        "bw": 1
+      },
+      "meta_mode": "joint",
+      "fixed_alg": "GA",
+      "slots": 4,
+      "de_mut_p": 0.05
+    },
+    {}
+  ],
+  "B2_SAMA_y2": [
+    true,
+    true,
+    {
+      "name": "realign",
+      "override_params": {
+        "rounds": 1,
+        "bw": 1
+      },
+      "meta_mode": "joint",
+      "fixed_alg": "GA",
+      "slots": 4,
+      "de_mut_p": 0.05
+    },
+    {}
+  ],
+  "C1_serial": [
+    true,
+    false,
+    {
+      "name": "serial",
+      "meta_mode": "joint",
+      "slots": 4,
+      "de_mut_p": 0.05
+    },
+    {}
+  ],
+  "D2_diag_y2": [
+    true,
+    true,
+    {
+      "name": "realign",
+      "override_params": {
+        "rounds": 1,
+        "bw": 1
+      },
+      "meta_mode": "joint",
+      "fixed_alg": "GA",
+      "slots": 4,
+      "de_mut_p": 0.05
+    },
+    {
+      "sa": {
+        "diag": 1.0
+      }
+    }
+  ],
+  "S1a_pop30_g100": [
+    true,
+    false,
+    {
+      "name": "realign",
+      "override_params": {
+        "rounds": 1,
+        "bw": 1
+      },
+      "meta_mode": "joint",
+      "fixed_alg": "GA",
+      "slots": 4,
+      "de_mut_p": 0.05
+    },
+    {
+      "pop": 30,
+      "gen": 100
+    }
+  ],
+  "S1b_pop30_g333": [
+    true,
+    false,
+    {
+      "name": "realign",
+      "override_params": {
+        "rounds": 1,
+        "bw": 1
+      },
+      "meta_mode": "joint",
+      "fixed_alg": "GA",
+      "slots": 4,
+      "de_mut_p": 0.05
+    },
+    {
+      "pop": 30,
+      "gen": 333
+    }
+  ],
+  "S1c_pop100_g100": [
+    true,
+    false,
+    {
+      "name": "realign",
+      "override_params": {
+        "rounds": 1,
+        "bw": 1
+      },
+      "meta_mode": "joint",
+      "fixed_alg": "GA",
+      "slots": 4,
+      "de_mut_p": 0.05
+    },
+    {
+      "pop": 100,
+      "gen": 100
+    }
+  ],
+  "S2a_eps00": [
+    true,
+    true,
+    {
+      "name": "realign",
+      "override_params": {
+        "rounds": 1,
+        "bw": 1
+      },
+      "meta_mode": "joint",
+      "fixed_alg": "GA",
+      "slots": 4,
+      "de_mut_p": 0.05
+    },
+    {
+      "sa": {
+        "eps": 0.0
+      }
+    }
+  ],
+  "S2b_eps30": [
+    true,
+    true,
+    {
+      "name": "realign",
+      "override_params": {
+        "rounds": 1,
+        "bw": 1
+      },
+      "meta_mode": "joint",
+      "fixed_alg": "GA",
+      "slots": 4,
+      "de_mut_p": 0.05
+    },
+    {
+      "sa": {
+        "eps": 0.3
+      }
+    }
+  ],
+  "S3a_model_rf": [
+    true,
+    true,
+    {
+      "name": "realign",
+      "override_params": {
+        "rounds": 1,
+        "bw": 1
+      },
+      "meta_mode": "joint",
+      "fixed_alg": "GA",
+      "slots": 4,
+      "de_mut_p": 0.05
+    },
+    {
+      "sur_type": "rf",
+      "sur_params": {
+        "n_estimators": 100,
+        "max_depth": 10
+      }
+    }
+  ],
+  "S3b_model_dnn": [
+    true,
+    true,
+    {
+      "name": "realign",
+      "override_params": {
+        "rounds": 1,
+        "bw": 1
+      },
+      "meta_mode": "joint",
+      "fixed_alg": "GA",
+      "slots": 4,
+      "de_mut_p": 0.05
+    },
+    {
+      "sur_type": "dnn",
+      "sur_params": {
+        "lr": 0.001
+      }
+    }
+  ],
+  "S4a_xgb_legacy": [
+    true,
+    true,
+    {
+      "name": "realign",
+      "override_params": {
+        "rounds": 1,
+        "bw": 1
+      },
+      "meta_mode": "joint",
+      "fixed_alg": "GA",
+      "slots": 4,
+      "de_mut_p": 0.05
+    },
+    {
+      "sur_params": {
+        "n_estimators": 100,
+        "max_depth": 6,
+        "learning_rate": 0.1
+      }
+    }
+  ],
+  "S4b_xgb_small": [
+    true,
+    true,
+    {
+      "name": "realign",
+      "override_params": {
+        "rounds": 1,
+        "bw": 1
+      },
+      "meta_mode": "joint",
+      "fixed_alg": "GA",
+      "slots": 4,
+      "de_mut_p": 0.05
+    },
+    {
+      "sur_params": {
+        "n_estimators": 25,
+        "max_depth": 3,
+        "learning_rate": 0.05
+      }
+    }
+  ],
+  "S5a_frac50": [
+    true,
+    true,
+    {
+      "name": "realign",
+      "override_params": {
+        "rounds": 1,
+        "bw": 1
+      },
+      "meta_mode": "joint",
+      "fixed_alg": "GA",
+      "slots": 4,
+      "de_mut_p": 0.05
+    },
+    {
+      "sa": {
+        "fraction": 0.5
+      }
+    }
+  ],
+  "S5b_frac70": [
+    true,
+    true,
+    {
+      "name": "realign",
+      "override_params": {
+        "rounds": 1,
+        "bw": 1
+      },
+      "meta_mode": "joint",
+      "fixed_alg": "GA",
+      "slots": 4,
+      "de_mut_p": 0.05
+    },
+    {
+      "sa": {
+        "fraction": 0.7
+      }
+    }
+  ],
+  "S6a_lr1e5": [
+    true,
+    false,
+    {
+      "name": "realign",
+      "override_params": {
+        "rounds": 1,
+        "bw": 1
+      },
+      "meta_mode": "joint",
+      "fixed_alg": "GA",
+      "slots": 4,
+      "de_mut_p": 0.05,
+      "lr": 1e-05
+    },
+    {}
+  ],
+  "S6b_lr1e3": [
+    true,
+    false,
+    {
+      "name": "realign",
+      "override_params": {
+        "rounds": 1,
+        "bw": 1
+      },
+      "meta_mode": "joint",
+      "fixed_alg": "GA",
+      "slots": 4,
+      "de_mut_p": 0.05,
+      "lr": 0.001
+    },
+    {}
+  ],
+  "Z3_joint_s2_m05": [
+    true,
+    false,
+    {
+      "name": "realign",
+      "override_params": {
+        "rounds": 1,
+        "bw": 1
+      },
+      "meta_mode": "joint",
+      "fixed_alg": "GA",
+      "slots": 2,
+      "de_mut_p": 0.05
+    },
+    {}
+  ],
+  "Z4_joint_s6_m05": [
+    true,
+    false,
+    {
+      "name": "realign",
+      "override_params": {
+        "rounds": 1,
+        "bw": 1
+      },
+      "meta_mode": "joint",
+      "fixed_alg": "GA",
+      "slots": 6,
+      "de_mut_p": 0.05
+    },
+    {}
+  ],
+  "S7a_exp00": [
+    true,
+    false,
+    {
+      "name": "realign",
+      "override_params": {
+        "rounds": 1,
+        "bw": 1
+      },
+      "meta_mode": "joint",
+      "fixed_alg": "GA",
+      "slots": 4,
+      "de_mut_p": 0.05,
+      "exploit": 0.0
+    },
+    {}
+  ],
+  "S7b_exp30": [
+    true,
+    false,
+    {
+      "name": "realign",
+      "override_params": {
+        "rounds": 1,
+        "bw": 1
+      },
+      "meta_mode": "joint",
+      "fixed_alg": "GA",
+      "slots": 4,
+      "de_mut_p": 0.05,
+      "exploit": 3.0
+    },
+    {}
+  ]
+}

@@ -1,0 +1,6 @@
+numpy==1.26.0
+torch==2.7.1
+xgboost==3.2.0
+scikit-learn==1.7.2
+scipy==1.15.3
+mealpy==3.0.3

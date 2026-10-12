@@ -1,0 +1,5017 @@
+{
+  "file_name": "mpj90a3.rcmp",
+  "num_projects": 3,
+  "num_resources": 4,
+  "resource_avail": [
+    22,
+    22,
+    20,
+    20
+  ],
+  "projects": [
+    {
+      "project_id": 1,
+      "num_activities": 92,
+      "release_date": 0,
+      "resource_flags": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "activities": [
+        {
+          "activity_id": "1.1",
+          "duration": 0,
+          "resource_demands": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "successors": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.2",
+          "duration": 10,
+          "resource_demands": [
+            4,
+            4,
+            0,
+            3
+          ],
+          "successors": [
+            [
+              1,
+              6
+            ],
+            [
+              1,
+              8
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.3",
+          "duration": 9,
+          "resource_demands": [
+            4,
+            4,
+            0,
+            2
+          ],
+          "successors": [
+            [
+              1,
+              5
+            ],
+            [
+              1,
+              33
+            ],
+            [
+              1,
+              62
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.4",
+          "duration": 7,
+          "resource_demands": [
+            7,
+            2,
+            4,
+            6
+          ],
+          "successors": [
+            [
+              1,
+              18
+            ],
+            [
+              1,
+              26
+            ],
+            [
+              1,
+              28
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.5",
+          "duration": 8,
+          "resource_demands": [
+            0,
+            5,
+            8,
+            8
+          ],
+          "successors": [
+            [
+              1,
+              7
+            ],
+            [
+              1,
+              13
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.6",
+          "duration": 2,
+          "resource_demands": [
+            5,
+            2,
+            1,
+            1
+          ],
+          "successors": [
+            [
+              1,
+              34
+            ],
+            [
+              1,
+              54
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.7",
+          "duration": 5,
+          "resource_demands": [
+            6,
+            9,
+            4,
+            10
+          ],
+          "successors": [
+            [
+              1,
+              10
+            ],
+            [
+              1,
+              11
+            ],
+            [
+              1,
+              35
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.8",
+          "duration": 9,
+          "resource_demands": [
+            0,
+            2,
+            6,
+            7
+          ],
+          "successors": [
+            [
+              1,
+              9
+            ],
+            [
+              1,
+              12
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.9",
+          "duration": 5,
+          "resource_demands": [
+            7,
+            1,
+            9,
+            0
+          ],
+          "successors": [
+            [
+              1,
+              19
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.10",
+          "duration": 4,
+          "resource_demands": [
+            6,
+            7,
+            1,
+            10
+          ],
+          "successors": [
+            [
+              1,
+              20
+            ],
+            [
+              1,
+              38
+            ],
+            [
+              1,
+              59
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.11",
+          "duration": 10,
+          "resource_demands": [
+            4,
+            0,
+            0,
+            6
+          ],
+          "successors": [
+            [
+              1,
+              14
+            ],
+            [
+              1,
+              23
+            ],
+            [
+              1,
+              47
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.12",
+          "duration": 10,
+          "resource_demands": [
+            9,
+            0,
+            10,
+            9
+          ],
+          "successors": [
+            [
+              1,
+              15
+            ],
+            [
+              1,
+              16
+            ],
+            [
+              1,
+              17
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.13",
+          "duration": 3,
+          "resource_demands": [
+            0,
+            0,
+            4,
+            5
+          ],
+          "successors": [
+            [
+              1,
+              30
+            ],
+            [
+              1,
+              42
+            ],
+            [
+              1,
+              68
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.14",
+          "duration": 5,
+          "resource_demands": [
+            0,
+            1,
+            10,
+            1
+          ],
+          "successors": [
+            [
+              1,
+              31
+            ],
+            [
+              1,
+              45
+            ],
+            [
+              1,
+              91
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.15",
+          "duration": 10,
+          "resource_demands": [
+            0,
+            3,
+            2,
+            6
+          ],
+          "successors": [
+            [
+              1,
+              21
+            ],
+            [
+              1,
+              22
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.16",
+          "duration": 3,
+          "resource_demands": [
+            4,
+            0,
+            7,
+            9
+          ],
+          "successors": [
+            [
+              1,
+              44
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.17",
+          "duration": 6,
+          "resource_demands": [
+            0,
+            5,
+            9,
+            0
+          ],
+          "successors": [
+            [
+              1,
+              49
+            ],
+            [
+              1,
+              55
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.18",
+          "duration": 1,
+          "resource_demands": [
+            4,
+            1,
+            4,
+            2
+          ],
+          "successors": [
+            [
+              1,
+              46
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.19",
+          "duration": 9,
+          "resource_demands": [
+            2,
+            10,
+            9,
+            0
+          ],
+          "successors": [
+            [
+              1,
+              65
+            ],
+            [
+              1,
+              69
+            ],
+            [
+              1,
+              88
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.20",
+          "duration": 6,
+          "resource_demands": [
+            2,
+            7,
+            2,
+            0
+          ],
+          "successors": [
+            [
+              1,
+              29
+            ],
+            [
+              1,
+              46
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.21",
+          "duration": 1,
+          "resource_demands": [
+            0,
+            7,
+            0,
+            7
+          ],
+          "successors": [
+            [
+              1,
+              27
+            ],
+            [
+              1,
+              52
+            ],
+            [
+              1,
+              58
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.22",
+          "duration": 9,
+          "resource_demands": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "successors": [
+            [
+              1,
+              25
+            ],
+            [
+              1,
+              78
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.23",
+          "duration": 8,
+          "resource_demands": [
+            10,
+            3,
+            2,
+            8
+          ],
+          "successors": [
+            [
+              1,
+              24
+            ],
+            [
+              1,
+              74
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.24",
+          "duration": 9,
+          "resource_demands": [
+            1,
+            8,
+            6,
+            0
+          ],
+          "successors": [
+            [
+              1,
+              53
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.25",
+          "duration": 3,
+          "resource_demands": [
+            5,
+            1,
+            7,
+            2
+          ],
+          "successors": [
+            [
+              1,
+              66
+            ],
+            [
+              1,
+              70
+            ],
+            [
+              1,
+              84
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.26",
+          "duration": 2,
+          "resource_demands": [
+            4,
+            4,
+            10,
+            1
+          ],
+          "successors": [
+            [
+              1,
+              37
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.27",
+          "duration": 3,
+          "resource_demands": [
+            10,
+            7,
+            1,
+            6
+          ],
+          "successors": [
+            [
+              1,
+              63
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.28",
+          "duration": 9,
+          "resource_demands": [
+            8,
+            3,
+            0,
+            5
+          ],
+          "successors": [
+            [
+              1,
+              38
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.29",
+          "duration": 3,
+          "resource_demands": [
+            3,
+            6,
+            0,
+            7
+          ],
+          "successors": [
+            [
+              1,
+              32
+            ],
+            [
+              1,
+              36
+            ],
+            [
+              1,
+              43
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.30",
+          "duration": 5,
+          "resource_demands": [
+            5,
+            1,
+            5,
+            5
+          ],
+          "successors": [
+            [
+              1,
+              39
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.31",
+          "duration": 5,
+          "resource_demands": [
+            5,
+            0,
+            9,
+            3
+          ],
+          "successors": [
+            [
+              1,
+              41
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.32",
+          "duration": 5,
+          "resource_demands": [
+            4,
+            9,
+            0,
+            5
+          ],
+          "successors": [
+            [
+              1,
+              61
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.33",
+          "duration": 4,
+          "resource_demands": [
+            7,
+            5,
+            8,
+            10
+          ],
+          "successors": [
+            [
+              1,
+              50
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.34",
+          "duration": 8,
+          "resource_demands": [
+            4,
+            0,
+            5,
+            6
+          ],
+          "successors": [
+            [
+              1,
+              57
+            ],
+            [
+              1,
+              73
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.35",
+          "duration": 2,
+          "resource_demands": [
+            1,
+            8,
+            10,
+            1
+          ],
+          "successors": [
+            [
+              1,
+              60
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.36",
+          "duration": 3,
+          "resource_demands": [
+            10,
+            6,
+            3,
+            5
+          ],
+          "successors": [
+            [
+              1,
+              57
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.37",
+          "duration": 7,
+          "resource_demands": [
+            1,
+            1,
+            7,
+            6
+          ],
+          "successors": [
+            [
+              1,
+              52
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.38",
+          "duration": 3,
+          "resource_demands": [
+            10,
+            0,
+            0,
+            0
+          ],
+          "successors": [
+            [
+              1,
+              40
+            ],
+            [
+              1,
+              60
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.39",
+          "duration": 1,
+          "resource_demands": [
+            0,
+            1,
+            6,
+            7
+          ],
+          "successors": [
+            [
+              1,
+              50
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.40",
+          "duration": 9,
+          "resource_demands": [
+            7,
+            0,
+            0,
+            8
+          ],
+          "successors": [
+            [
+              1,
+              86
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.41",
+          "duration": 8,
+          "resource_demands": [
+            0,
+            2,
+            0,
+            3
+          ],
+          "successors": [
+            [
+              1,
+              51
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.42",
+          "duration": 1,
+          "resource_demands": [
+            0,
+            3,
+            6,
+            10
+          ],
+          "successors": [
+            [
+              1,
+              48
+            ],
+            [
+              1,
+              61
+            ],
+            [
+              1,
+              80
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.43",
+          "duration": 4,
+          "resource_demands": [
+            9,
+            0,
+            0,
+            0
+          ],
+          "successors": [
+            [
+              1,
+              53
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.44",
+          "duration": 3,
+          "resource_demands": [
+            4,
+            5,
+            2,
+            0
+          ],
+          "successors": [
+            [
+              1,
+              71
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.45",
+          "duration": 5,
+          "resource_demands": [
+            5,
+            0,
+            6,
+            7
+          ],
+          "successors": [
+            [
+              1,
+              55
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.46",
+          "duration": 9,
+          "resource_demands": [
+            5,
+            8,
+            8,
+            2
+          ],
+          "successors": [
+            [
+              1,
+              71
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.47",
+          "duration": 3,
+          "resource_demands": [
+            9,
+            6,
+            10,
+            4
+          ],
+          "successors": [
+            [
+              1,
+              56
+            ],
+            [
+              1,
+              75
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.48",
+          "duration": 7,
+          "resource_demands": [
+            2,
+            10,
+            3,
+            8
+          ],
+          "successors": [
+            [
+              1,
+              50
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.49",
+          "duration": 10,
+          "resource_demands": [
+            8,
+            10,
+            6,
+            6
+          ],
+          "successors": [
+            [
+              1,
+              51
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.50",
+          "duration": 10,
+          "resource_demands": [
+            1,
+            8,
+            0,
+            4
+          ],
+          "successors": [
+            [
+              1,
+              70
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.51",
+          "duration": 7,
+          "resource_demands": [
+            8,
+            4,
+            0,
+            8
+          ],
+          "successors": [
+            [
+              1,
+              72
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.52",
+          "duration": 6,
+          "resource_demands": [
+            9,
+            4,
+            8,
+            6
+          ],
+          "successors": [
+            [
+              1,
+              79
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.53",
+          "duration": 3,
+          "resource_demands": [
+            0,
+            7,
+            0,
+            10
+          ],
+          "successors": [
+            [
+              1,
+              91
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.54",
+          "duration": 2,
+          "resource_demands": [
+            6,
+            4,
+            5,
+            0
+          ],
+          "successors": [
+            [
+              1,
+              67
+            ],
+            [
+              1,
+              72
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.55",
+          "duration": 3,
+          "resource_demands": [
+            1,
+            0,
+            9,
+            0
+          ],
+          "successors": [
+            [
+              1,
+              77
+            ],
+            [
+              1,
+              82
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.56",
+          "duration": 1,
+          "resource_demands": [
+            6,
+            0,
+            0,
+            2
+          ],
+          "successors": [
+            [
+              1,
+              57
+            ],
+            [
+              1,
+              85
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.57",
+          "duration": 6,
+          "resource_demands": [
+            0,
+            9,
+            8,
+            0
+          ],
+          "successors": [
+            [
+              1,
+              81
+            ],
+            [
+              1,
+              89
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.58",
+          "duration": 7,
+          "resource_demands": [
+            4,
+            5,
+            0,
+            7
+          ],
+          "successors": [
+            [
+              1,
+              70
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.59",
+          "duration": 5,
+          "resource_demands": [
+            0,
+            8,
+            0,
+            0
+          ],
+          "successors": [
+            [
+              1,
+              66
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.60",
+          "duration": 6,
+          "resource_demands": [
+            0,
+            10,
+            7,
+            9
+          ],
+          "successors": [
+            [
+              1,
+              74
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.61",
+          "duration": 8,
+          "resource_demands": [
+            8,
+            1,
+            5,
+            5
+          ],
+          "successors": [
+            [
+              1,
+              64
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.62",
+          "duration": 7,
+          "resource_demands": [
+            5,
+            4,
+            2,
+            6
+          ],
+          "successors": [
+            [
+              1,
+              66
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.63",
+          "duration": 7,
+          "resource_demands": [
+            10,
+            3,
+            3,
+            0
+          ],
+          "successors": [
+            [
+              1,
+              84
+            ],
+            [
+              1,
+              90
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.64",
+          "duration": 7,
+          "resource_demands": [
+            2,
+            0,
+            7,
+            1
+          ],
+          "successors": [
+            [
+              1,
+              71
+            ],
+            [
+              1,
+              72
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.65",
+          "duration": 4,
+          "resource_demands": [
+            7,
+            6,
+            1,
+            7
+          ],
+          "successors": [
+            [
+              1,
+              86
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.66",
+          "duration": 6,
+          "resource_demands": [
+            8,
+            9,
+            5,
+            1
+          ],
+          "successors": [
+            [
+              1,
+              73
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.67",
+          "duration": 7,
+          "resource_demands": [
+            3,
+            4,
+            0,
+            0
+          ],
+          "successors": [
+            [
+              1,
+              81
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.68",
+          "duration": 6,
+          "resource_demands": [
+            6,
+            6,
+            6,
+            0
+          ],
+          "successors": [
+            [
+              1,
+              73
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.69",
+          "duration": 6,
+          "resource_demands": [
+            3,
+            10,
+            6,
+            2
+          ],
+          "successors": [
+            [
+              1,
+              83
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.70",
+          "duration": 3,
+          "resource_demands": [
+            4,
+            6,
+            0,
+            9
+          ],
+          "successors": [
+            [
+              1,
+              76
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.71",
+          "duration": 1,
+          "resource_demands": [
+            10,
+            0,
+            10,
+            4
+          ],
+          "successors": [
+            [
+              1,
+              78
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.72",
+          "duration": 4,
+          "resource_demands": [
+            0,
+            8,
+            0,
+            10
+          ],
+          "successors": [
+            [
+              1,
+              84
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.73",
+          "duration": 6,
+          "resource_demands": [
+            0,
+            4,
+            7,
+            1
+          ],
+          "successors": [
+            [
+              1,
+              87
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.74",
+          "duration": 1,
+          "resource_demands": [
+            9,
+            9,
+            3,
+            0
+          ],
+          "successors": [
+            [
+              1,
+              75
+            ],
+            [
+              1,
+              77
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.75",
+          "duration": 4,
+          "resource_demands": [
+            10,
+            3,
+            5,
+            0
+          ],
+          "successors": [
+            [
+              1,
+              80
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.76",
+          "duration": 7,
+          "resource_demands": [
+            0,
+            1,
+            10,
+            4
+          ],
+          "successors": [
+            [
+              1,
+              77
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.77",
+          "duration": 8,
+          "resource_demands": [
+            10,
+            7,
+            0,
+            0
+          ],
+          "successors": [
+            [
+              1,
+              83
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.78",
+          "duration": 9,
+          "resource_demands": [
+            9,
+            0,
+            10,
+            10
+          ],
+          "successors": [
+            [
+              1,
+              83
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.79",
+          "duration": 10,
+          "resource_demands": [
+            6,
+            5,
+            10,
+            3
+          ],
+          "successors": [
+            [
+              1,
+              85
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.80",
+          "duration": 10,
+          "resource_demands": [
+            4,
+            9,
+            1,
+            0
+          ],
+          "successors": [
+            [
+              1,
+              82
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.81",
+          "duration": 7,
+          "resource_demands": [
+            5,
+            2,
+            5,
+            0
+          ],
+          "successors": [
+            [
+              1,
+              82
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.82",
+          "duration": 5,
+          "resource_demands": [
+            0,
+            3,
+            9,
+            4
+          ],
+          "successors": [
+            [
+              1,
+              86
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.83",
+          "duration": 9,
+          "resource_demands": [
+            5,
+            1,
+            0,
+            0
+          ],
+          "successors": [
+            [
+              1,
+              89
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.84",
+          "duration": 2,
+          "resource_demands": [
+            0,
+            7,
+            1,
+            4
+          ],
+          "successors": [
+            [
+              1,
+              88
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.85",
+          "duration": 8,
+          "resource_demands": [
+            7,
+            4,
+            0,
+            0
+          ],
+          "successors": [
+            [
+              1,
+              87
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.86",
+          "duration": 9,
+          "resource_demands": [
+            0,
+            6,
+            0,
+            7
+          ],
+          "successors": [
+            [
+              1,
+              87
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.87",
+          "duration": 2,
+          "resource_demands": [
+            6,
+            1,
+            4,
+            5
+          ],
+          "successors": [
+            [
+              1,
+              90
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.88",
+          "duration": 2,
+          "resource_demands": [
+            0,
+            9,
+            7,
+            0
+          ],
+          "successors": [
+            [
+              1,
+              89
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.89",
+          "duration": 2,
+          "resource_demands": [
+            9,
+            0,
+            3,
+            6
+          ],
+          "successors": [
+            [
+              1,
+              92
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.90",
+          "duration": 10,
+          "resource_demands": [
+            2,
+            10,
+            2,
+            0
+          ],
+          "successors": [
+            [
+              1,
+              92
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.91",
+          "duration": 7,
+          "resource_demands": [
+            0,
+            1,
+            3,
+            6
+          ],
+          "successors": [
+            [
+              1,
+              92
+            ]
+          ]
+        },
+        {
+          "activity_id": "1.92",
+          "duration": 0,
+          "resource_demands": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "successors": []
+        }
+      ]
+    },
+    {
+      "project_id": 2,
+      "num_activities": 92,
+      "release_date": 0,
+      "resource_flags": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "activities": [
+        {
+          "activity_id": "2.1",
+          "duration": 0,
+          "resource_demands": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "successors": [
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.2",
+          "duration": 10,
+          "resource_demands": [
+            4,
+            4,
+            0,
+            3
+          ],
+          "successors": [
+            [
+              2,
+              6
+            ],
+            [
+              2,
+              8
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.3",
+          "duration": 9,
+          "resource_demands": [
+            4,
+            4,
+            0,
+            2
+          ],
+          "successors": [
+            [
+              2,
+              5
+            ],
+            [
+              2,
+              33
+            ],
+            [
+              2,
+              62
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.4",
+          "duration": 7,
+          "resource_demands": [
+            7,
+            2,
+            4,
+            6
+          ],
+          "successors": [
+            [
+              2,
+              18
+            ],
+            [
+              2,
+              26
+            ],
+            [
+              2,
+              28
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.5",
+          "duration": 8,
+          "resource_demands": [
+            0,
+            5,
+            8,
+            8
+          ],
+          "successors": [
+            [
+              2,
+              7
+            ],
+            [
+              2,
+              13
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.6",
+          "duration": 2,
+          "resource_demands": [
+            5,
+            2,
+            1,
+            1
+          ],
+          "successors": [
+            [
+              2,
+              34
+            ],
+            [
+              2,
+              54
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.7",
+          "duration": 5,
+          "resource_demands": [
+            6,
+            9,
+            4,
+            10
+          ],
+          "successors": [
+            [
+              2,
+              10
+            ],
+            [
+              2,
+              11
+            ],
+            [
+              2,
+              35
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.8",
+          "duration": 9,
+          "resource_demands": [
+            0,
+            2,
+            6,
+            7
+          ],
+          "successors": [
+            [
+              2,
+              9
+            ],
+            [
+              2,
+              12
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.9",
+          "duration": 5,
+          "resource_demands": [
+            7,
+            1,
+            9,
+            0
+          ],
+          "successors": [
+            [
+              2,
+              19
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.10",
+          "duration": 4,
+          "resource_demands": [
+            6,
+            7,
+            1,
+            10
+          ],
+          "successors": [
+            [
+              2,
+              20
+            ],
+            [
+              2,
+              38
+            ],
+            [
+              2,
+              59
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.11",
+          "duration": 10,
+          "resource_demands": [
+            4,
+            0,
+            0,
+            6
+          ],
+          "successors": [
+            [
+              2,
+              14
+            ],
+            [
+              2,
+              23
+            ],
+            [
+              2,
+              47
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.12",
+          "duration": 10,
+          "resource_demands": [
+            9,
+            0,
+            10,
+            9
+          ],
+          "successors": [
+            [
+              2,
+              15
+            ],
+            [
+              2,
+              16
+            ],
+            [
+              2,
+              17
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.13",
+          "duration": 3,
+          "resource_demands": [
+            0,
+            0,
+            4,
+            5
+          ],
+          "successors": [
+            [
+              2,
+              30
+            ],
+            [
+              2,
+              42
+            ],
+            [
+              2,
+              68
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.14",
+          "duration": 5,
+          "resource_demands": [
+            0,
+            1,
+            10,
+            1
+          ],
+          "successors": [
+            [
+              2,
+              31
+            ],
+            [
+              2,
+              45
+            ],
+            [
+              2,
+              91
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.15",
+          "duration": 10,
+          "resource_demands": [
+            0,
+            3,
+            2,
+            6
+          ],
+          "successors": [
+            [
+              2,
+              21
+            ],
+            [
+              2,
+              22
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.16",
+          "duration": 3,
+          "resource_demands": [
+            4,
+            0,
+            7,
+            9
+          ],
+          "successors": [
+            [
+              2,
+              44
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.17",
+          "duration": 6,
+          "resource_demands": [
+            0,
+            5,
+            9,
+            0
+          ],
+          "successors": [
+            [
+              2,
+              49
+            ],
+            [
+              2,
+              55
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.18",
+          "duration": 1,
+          "resource_demands": [
+            4,
+            1,
+            4,
+            2
+          ],
+          "successors": [
+            [
+              2,
+              46
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.19",
+          "duration": 9,
+          "resource_demands": [
+            2,
+            10,
+            9,
+            0
+          ],
+          "successors": [
+            [
+              2,
+              65
+            ],
+            [
+              2,
+              69
+            ],
+            [
+              2,
+              88
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.20",
+          "duration": 6,
+          "resource_demands": [
+            2,
+            7,
+            2,
+            0
+          ],
+          "successors": [
+            [
+              2,
+              29
+            ],
+            [
+              2,
+              46
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.21",
+          "duration": 1,
+          "resource_demands": [
+            0,
+            7,
+            0,
+            7
+          ],
+          "successors": [
+            [
+              2,
+              27
+            ],
+            [
+              2,
+              52
+            ],
+            [
+              2,
+              58
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.22",
+          "duration": 9,
+          "resource_demands": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "successors": [
+            [
+              2,
+              25
+            ],
+            [
+              2,
+              78
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.23",
+          "duration": 8,
+          "resource_demands": [
+            10,
+            3,
+            2,
+            8
+          ],
+          "successors": [
+            [
+              2,
+              24
+            ],
+            [
+              2,
+              74
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.24",
+          "duration": 9,
+          "resource_demands": [
+            1,
+            8,
+            6,
+            0
+          ],
+          "successors": [
+            [
+              2,
+              53
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.25",
+          "duration": 3,
+          "resource_demands": [
+            5,
+            1,
+            7,
+            2
+          ],
+          "successors": [
+            [
+              2,
+              66
+            ],
+            [
+              2,
+              70
+            ],
+            [
+              2,
+              84
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.26",
+          "duration": 2,
+          "resource_demands": [
+            4,
+            4,
+            10,
+            1
+          ],
+          "successors": [
+            [
+              2,
+              37
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.27",
+          "duration": 3,
+          "resource_demands": [
+            10,
+            7,
+            1,
+            6
+          ],
+          "successors": [
+            [
+              2,
+              63
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.28",
+          "duration": 9,
+          "resource_demands": [
+            8,
+            3,
+            0,
+            5
+          ],
+          "successors": [
+            [
+              2,
+              38
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.29",
+          "duration": 3,
+          "resource_demands": [
+            3,
+            6,
+            0,
+            7
+          ],
+          "successors": [
+            [
+              2,
+              32
+            ],
+            [
+              2,
+              36
+            ],
+            [
+              2,
+              43
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.30",
+          "duration": 5,
+          "resource_demands": [
+            5,
+            1,
+            5,
+            5
+          ],
+          "successors": [
+            [
+              2,
+              39
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.31",
+          "duration": 5,
+          "resource_demands": [
+            5,
+            0,
+            9,
+            3
+          ],
+          "successors": [
+            [
+              2,
+              41
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.32",
+          "duration": 5,
+          "resource_demands": [
+            4,
+            9,
+            0,
+            5
+          ],
+          "successors": [
+            [
+              2,
+              61
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.33",
+          "duration": 4,
+          "resource_demands": [
+            7,
+            5,
+            8,
+            10
+          ],
+          "successors": [
+            [
+              2,
+              50
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.34",
+          "duration": 8,
+          "resource_demands": [
+            4,
+            0,
+            5,
+            6
+          ],
+          "successors": [
+            [
+              2,
+              57
+            ],
+            [
+              2,
+              73
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.35",
+          "duration": 2,
+          "resource_demands": [
+            1,
+            8,
+            10,
+            1
+          ],
+          "successors": [
+            [
+              2,
+              60
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.36",
+          "duration": 3,
+          "resource_demands": [
+            10,
+            6,
+            3,
+            5
+          ],
+          "successors": [
+            [
+              2,
+              57
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.37",
+          "duration": 7,
+          "resource_demands": [
+            1,
+            1,
+            7,
+            6
+          ],
+          "successors": [
+            [
+              2,
+              52
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.38",
+          "duration": 3,
+          "resource_demands": [
+            10,
+            0,
+            0,
+            0
+          ],
+          "successors": [
+            [
+              2,
+              40
+            ],
+            [
+              2,
+              60
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.39",
+          "duration": 1,
+          "resource_demands": [
+            0,
+            1,
+            6,
+            7
+          ],
+          "successors": [
+            [
+              2,
+              50
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.40",
+          "duration": 9,
+          "resource_demands": [
+            7,
+            0,
+            0,
+            8
+          ],
+          "successors": [
+            [
+              2,
+              86
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.41",
+          "duration": 8,
+          "resource_demands": [
+            0,
+            2,
+            0,
+            3
+          ],
+          "successors": [
+            [
+              2,
+              51
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.42",
+          "duration": 1,
+          "resource_demands": [
+            0,
+            3,
+            6,
+            10
+          ],
+          "successors": [
+            [
+              2,
+              48
+            ],
+            [
+              2,
+              61
+            ],
+            [
+              2,
+              80
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.43",
+          "duration": 4,
+          "resource_demands": [
+            9,
+            0,
+            0,
+            0
+          ],
+          "successors": [
+            [
+              2,
+              53
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.44",
+          "duration": 3,
+          "resource_demands": [
+            4,
+            5,
+            2,
+            0
+          ],
+          "successors": [
+            [
+              2,
+              71
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.45",
+          "duration": 5,
+          "resource_demands": [
+            5,
+            0,
+            6,
+            7
+          ],
+          "successors": [
+            [
+              2,
+              55
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.46",
+          "duration": 9,
+          "resource_demands": [
+            5,
+            8,
+            8,
+            2
+          ],
+          "successors": [
+            [
+              2,
+              71
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.47",
+          "duration": 3,
+          "resource_demands": [
+            9,
+            6,
+            10,
+            4
+          ],
+          "successors": [
+            [
+              2,
+              56
+            ],
+            [
+              2,
+              75
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.48",
+          "duration": 7,
+          "resource_demands": [
+            2,
+            10,
+            3,
+            8
+          ],
+          "successors": [
+            [
+              2,
+              50
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.49",
+          "duration": 10,
+          "resource_demands": [
+            8,
+            10,
+            6,
+            6
+          ],
+          "successors": [
+            [
+              2,
+              51
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.50",
+          "duration": 10,
+          "resource_demands": [
+            1,
+            8,
+            0,
+            4
+          ],
+          "successors": [
+            [
+              2,
+              70
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.51",
+          "duration": 7,
+          "resource_demands": [
+            8,
+            4,
+            0,
+            8
+          ],
+          "successors": [
+            [
+              2,
+              72
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.52",
+          "duration": 6,
+          "resource_demands": [
+            9,
+            4,
+            8,
+            6
+          ],
+          "successors": [
+            [
+              2,
+              79
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.53",
+          "duration": 3,
+          "resource_demands": [
+            0,
+            7,
+            0,
+            10
+          ],
+          "successors": [
+            [
+              2,
+              91
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.54",
+          "duration": 2,
+          "resource_demands": [
+            6,
+            4,
+            5,
+            0
+          ],
+          "successors": [
+            [
+              2,
+              67
+            ],
+            [
+              2,
+              72
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.55",
+          "duration": 3,
+          "resource_demands": [
+            1,
+            0,
+            9,
+            0
+          ],
+          "successors": [
+            [
+              2,
+              77
+            ],
+            [
+              2,
+              82
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.56",
+          "duration": 1,
+          "resource_demands": [
+            6,
+            0,
+            0,
+            2
+          ],
+          "successors": [
+            [
+              2,
+              57
+            ],
+            [
+              2,
+              85
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.57",
+          "duration": 6,
+          "resource_demands": [
+            0,
+            9,
+            8,
+            0
+          ],
+          "successors": [
+            [
+              2,
+              81
+            ],
+            [
+              2,
+              89
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.58",
+          "duration": 7,
+          "resource_demands": [
+            4,
+            5,
+            0,
+            7
+          ],
+          "successors": [
+            [
+              2,
+              70
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.59",
+          "duration": 5,
+          "resource_demands": [
+            0,
+            8,
+            0,
+            0
+          ],
+          "successors": [
+            [
+              2,
+              66
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.60",
+          "duration": 6,
+          "resource_demands": [
+            0,
+            10,
+            7,
+            9
+          ],
+          "successors": [
+            [
+              2,
+              74
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.61",
+          "duration": 8,
+          "resource_demands": [
+            8,
+            1,
+            5,
+            5
+          ],
+          "successors": [
+            [
+              2,
+              64
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.62",
+          "duration": 7,
+          "resource_demands": [
+            5,
+            4,
+            2,
+            6
+          ],
+          "successors": [
+            [
+              2,
+              66
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.63",
+          "duration": 7,
+          "resource_demands": [
+            10,
+            3,
+            3,
+            0
+          ],
+          "successors": [
+            [
+              2,
+              84
+            ],
+            [
+              2,
+              90
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.64",
+          "duration": 7,
+          "resource_demands": [
+            2,
+            0,
+            7,
+            1
+          ],
+          "successors": [
+            [
+              2,
+              71
+            ],
+            [
+              2,
+              72
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.65",
+          "duration": 4,
+          "resource_demands": [
+            7,
+            6,
+            1,
+            7
+          ],
+          "successors": [
+            [
+              2,
+              86
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.66",
+          "duration": 6,
+          "resource_demands": [
+            8,
+            9,
+            5,
+            1
+          ],
+          "successors": [
+            [
+              2,
+              73
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.67",
+          "duration": 7,
+          "resource_demands": [
+            3,
+            4,
+            0,
+            0
+          ],
+          "successors": [
+            [
+              2,
+              81
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.68",
+          "duration": 6,
+          "resource_demands": [
+            6,
+            6,
+            6,
+            0
+          ],
+          "successors": [
+            [
+              2,
+              73
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.69",
+          "duration": 6,
+          "resource_demands": [
+            3,
+            10,
+            6,
+            2
+          ],
+          "successors": [
+            [
+              2,
+              83
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.70",
+          "duration": 3,
+          "resource_demands": [
+            4,
+            6,
+            0,
+            9
+          ],
+          "successors": [
+            [
+              2,
+              76
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.71",
+          "duration": 1,
+          "resource_demands": [
+            10,
+            0,
+            10,
+            4
+          ],
+          "successors": [
+            [
+              2,
+              78
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.72",
+          "duration": 4,
+          "resource_demands": [
+            0,
+            8,
+            0,
+            10
+          ],
+          "successors": [
+            [
+              2,
+              84
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.73",
+          "duration": 6,
+          "resource_demands": [
+            0,
+            4,
+            7,
+            1
+          ],
+          "successors": [
+            [
+              2,
+              87
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.74",
+          "duration": 1,
+          "resource_demands": [
+            9,
+            9,
+            3,
+            0
+          ],
+          "successors": [
+            [
+              2,
+              75
+            ],
+            [
+              2,
+              77
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.75",
+          "duration": 4,
+          "resource_demands": [
+            10,
+            3,
+            5,
+            0
+          ],
+          "successors": [
+            [
+              2,
+              80
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.76",
+          "duration": 7,
+          "resource_demands": [
+            0,
+            1,
+            10,
+            4
+          ],
+          "successors": [
+            [
+              2,
+              77
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.77",
+          "duration": 8,
+          "resource_demands": [
+            10,
+            7,
+            0,
+            0
+          ],
+          "successors": [
+            [
+              2,
+              83
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.78",
+          "duration": 9,
+          "resource_demands": [
+            9,
+            0,
+            10,
+            10
+          ],
+          "successors": [
+            [
+              2,
+              83
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.79",
+          "duration": 10,
+          "resource_demands": [
+            6,
+            5,
+            10,
+            3
+          ],
+          "successors": [
+            [
+              2,
+              85
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.80",
+          "duration": 10,
+          "resource_demands": [
+            4,
+            9,
+            1,
+            0
+          ],
+          "successors": [
+            [
+              2,
+              82
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.81",
+          "duration": 7,
+          "resource_demands": [
+            5,
+            2,
+            5,
+            0
+          ],
+          "successors": [
+            [
+              2,
+              82
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.82",
+          "duration": 5,
+          "resource_demands": [
+            0,
+            3,
+            9,
+            4
+          ],
+          "successors": [
+            [
+              2,
+              86
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.83",
+          "duration": 9,
+          "resource_demands": [
+            5,
+            1,
+            0,
+            0
+          ],
+          "successors": [
+            [
+              2,
+              89
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.84",
+          "duration": 2,
+          "resource_demands": [
+            0,
+            7,
+            1,
+            4
+          ],
+          "successors": [
+            [
+              2,
+              88
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.85",
+          "duration": 8,
+          "resource_demands": [
+            7,
+            4,
+            0,
+            0
+          ],
+          "successors": [
+            [
+              2,
+              87
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.86",
+          "duration": 9,
+          "resource_demands": [
+            0,
+            6,
+            0,
+            7
+          ],
+          "successors": [
+            [
+              2,
+              87
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.87",
+          "duration": 2,
+          "resource_demands": [
+            6,
+            1,
+            4,
+            5
+          ],
+          "successors": [
+            [
+              2,
+              90
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.88",
+          "duration": 2,
+          "resource_demands": [
+            0,
+            9,
+            7,
+            0
+          ],
+          "successors": [
+            [
+              2,
+              89
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.89",
+          "duration": 2,
+          "resource_demands": [
+            9,
+            0,
+            3,
+            6
+          ],
+          "successors": [
+            [
+              2,
+              92
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.90",
+          "duration": 10,
+          "resource_demands": [
+            2,
+            10,
+            2,
+            0
+          ],
+          "successors": [
+            [
+              2,
+              92
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.91",
+          "duration": 7,
+          "resource_demands": [
+            0,
+            1,
+            3,
+            6
+          ],
+          "successors": [
+            [
+              2,
+              92
+            ]
+          ]
+        },
+        {
+          "activity_id": "2.92",
+          "duration": 0,
+          "resource_demands": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "successors": []
+        }
+      ]
+    },
+    {
+      "project_id": 3,
+      "num_activities": 92,
+      "release_date": 0,
+      "resource_flags": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "activities": [
+        {
+          "activity_id": "3.1",
+          "duration": 0,
+          "resource_demands": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "successors": [
+            [
+              3,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              4
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.2",
+          "duration": 10,
+          "resource_demands": [
+            4,
+            4,
+            0,
+            3
+          ],
+          "successors": [
+            [
+              3,
+              6
+            ],
+            [
+              3,
+              8
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.3",
+          "duration": 9,
+          "resource_demands": [
+            4,
+            4,
+            0,
+            2
+          ],
+          "successors": [
+            [
+              3,
+              5
+            ],
+            [
+              3,
+              33
+            ],
+            [
+              3,
+              62
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.4",
+          "duration": 7,
+          "resource_demands": [
+            7,
+            2,
+            4,
+            6
+          ],
+          "successors": [
+            [
+              3,
+              18
+            ],
+            [
+              3,
+              26
+            ],
+            [
+              3,
+              28
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.5",
+          "duration": 8,
+          "resource_demands": [
+            0,
+            5,
+            8,
+            8
+          ],
+          "successors": [
+            [
+              3,
+              7
+            ],
+            [
+              3,
+              13
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.6",
+          "duration": 2,
+          "resource_demands": [
+            5,
+            2,
+            1,
+            1
+          ],
+          "successors": [
+            [
+              3,
+              34
+            ],
+            [
+              3,
+              54
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.7",
+          "duration": 5,
+          "resource_demands": [
+            6,
+            9,
+            4,
+            10
+          ],
+          "successors": [
+            [
+              3,
+              10
+            ],
+            [
+              3,
+              11
+            ],
+            [
+              3,
+              35
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.8",
+          "duration": 9,
+          "resource_demands": [
+            0,
+            2,
+            6,
+            7
+          ],
+          "successors": [
+            [
+              3,
+              9
+            ],
+            [
+              3,
+              12
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.9",
+          "duration": 5,
+          "resource_demands": [
+            7,
+            1,
+            9,
+            0
+          ],
+          "successors": [
+            [
+              3,
+              19
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.10",
+          "duration": 4,
+          "resource_demands": [
+            6,
+            7,
+            1,
+            10
+          ],
+          "successors": [
+            [
+              3,
+              20
+            ],
+            [
+              3,
+              38
+            ],
+            [
+              3,
+              59
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.11",
+          "duration": 10,
+          "resource_demands": [
+            4,
+            0,
+            0,
+            6
+          ],
+          "successors": [
+            [
+              3,
+              14
+            ],
+            [
+              3,
+              23
+            ],
+            [
+              3,
+              47
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.12",
+          "duration": 10,
+          "resource_demands": [
+            9,
+            0,
+            10,
+            9
+          ],
+          "successors": [
+            [
+              3,
+              15
+            ],
+            [
+              3,
+              16
+            ],
+            [
+              3,
+              17
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.13",
+          "duration": 3,
+          "resource_demands": [
+            0,
+            0,
+            4,
+            5
+          ],
+          "successors": [
+            [
+              3,
+              30
+            ],
+            [
+              3,
+              42
+            ],
+            [
+              3,
+              68
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.14",
+          "duration": 5,
+          "resource_demands": [
+            0,
+            1,
+            10,
+            1
+          ],
+          "successors": [
+            [
+              3,
+              31
+            ],
+            [
+              3,
+              45
+            ],
+            [
+              3,
+              91
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.15",
+          "duration": 10,
+          "resource_demands": [
+            0,
+            3,
+            2,
+            6
+          ],
+          "successors": [
+            [
+              3,
+              21
+            ],
+            [
+              3,
+              22
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.16",
+          "duration": 3,
+          "resource_demands": [
+            4,
+            0,
+            7,
+            9
+          ],
+          "successors": [
+            [
+              3,
+              44
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.17",
+          "duration": 6,
+          "resource_demands": [
+            0,
+            5,
+            9,
+            0
+          ],
+          "successors": [
+            [
+              3,
+              49
+            ],
+            [
+              3,
+              55
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.18",
+          "duration": 1,
+          "resource_demands": [
+            4,
+            1,
+            4,
+            2
+          ],
+          "successors": [
+            [
+              3,
+              46
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.19",
+          "duration": 9,
+          "resource_demands": [
+            2,
+            10,
+            9,
+            0
+          ],
+          "successors": [
+            [
+              3,
+              65
+            ],
+            [
+              3,
+              69
+            ],
+            [
+              3,
+              88
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.20",
+          "duration": 6,
+          "resource_demands": [
+            2,
+            7,
+            2,
+            0
+          ],
+          "successors": [
+            [
+              3,
+              29
+            ],
+            [
+              3,
+              46
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.21",
+          "duration": 1,
+          "resource_demands": [
+            0,
+            7,
+            0,
+            7
+          ],
+          "successors": [
+            [
+              3,
+              27
+            ],
+            [
+              3,
+              52
+            ],
+            [
+              3,
+              58
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.22",
+          "duration": 9,
+          "resource_demands": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "successors": [
+            [
+              3,
+              25
+            ],
+            [
+              3,
+              78
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.23",
+          "duration": 8,
+          "resource_demands": [
+            10,
+            3,
+            2,
+            8
+          ],
+          "successors": [
+            [
+              3,
+              24
+            ],
+            [
+              3,
+              74
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.24",
+          "duration": 9,
+          "resource_demands": [
+            1,
+            8,
+            6,
+            0
+          ],
+          "successors": [
+            [
+              3,
+              53
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.25",
+          "duration": 3,
+          "resource_demands": [
+            5,
+            1,
+            7,
+            2
+          ],
+          "successors": [
+            [
+              3,
+              66
+            ],
+            [
+              3,
+              70
+            ],
+            [
+              3,
+              84
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.26",
+          "duration": 2,
+          "resource_demands": [
+            4,
+            4,
+            10,
+            1
+          ],
+          "successors": [
+            [
+              3,
+              37
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.27",
+          "duration": 3,
+          "resource_demands": [
+            10,
+            7,
+            1,
+            6
+          ],
+          "successors": [
+            [
+              3,
+              63
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.28",
+          "duration": 9,
+          "resource_demands": [
+            8,
+            3,
+            0,
+            5
+          ],
+          "successors": [
+            [
+              3,
+              38
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.29",
+          "duration": 3,
+          "resource_demands": [
+            3,
+            6,
+            0,
+            7
+          ],
+          "successors": [
+            [
+              3,
+              32
+            ],
+            [
+              3,
+              36
+            ],
+            [
+              3,
+              43
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.30",
+          "duration": 5,
+          "resource_demands": [
+            5,
+            1,
+            5,
+            5
+          ],
+          "successors": [
+            [
+              3,
+              39
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.31",
+          "duration": 5,
+          "resource_demands": [
+            5,
+            0,
+            9,
+            3
+          ],
+          "successors": [
+            [
+              3,
+              41
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.32",
+          "duration": 5,
+          "resource_demands": [
+            4,
+            9,
+            0,
+            5
+          ],
+          "successors": [
+            [
+              3,
+              61
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.33",
+          "duration": 4,
+          "resource_demands": [
+            7,
+            5,
+            8,
+            10
+          ],
+          "successors": [
+            [
+              3,
+              50
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.34",
+          "duration": 8,
+          "resource_demands": [
+            4,
+            0,
+            5,
+            6
+          ],
+          "successors": [
+            [
+              3,
+              57
+            ],
+            [
+              3,
+              73
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.35",
+          "duration": 2,
+          "resource_demands": [
+            1,
+            8,
+            10,
+            1
+          ],
+          "successors": [
+            [
+              3,
+              60
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.36",
+          "duration": 3,
+          "resource_demands": [
+            10,
+            6,
+            3,
+            5
+          ],
+          "successors": [
+            [
+              3,
+              57
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.37",
+          "duration": 7,
+          "resource_demands": [
+            1,
+            1,
+            7,
+            6
+          ],
+          "successors": [
+            [
+              3,
+              52
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.38",
+          "duration": 3,
+          "resource_demands": [
+            10,
+            0,
+            0,
+            0
+          ],
+          "successors": [
+            [
+              3,
+              40
+            ],
+            [
+              3,
+              60
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.39",
+          "duration": 1,
+          "resource_demands": [
+            0,
+            1,
+            6,
+            7
+          ],
+          "successors": [
+            [
+              3,
+              50
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.40",
+          "duration": 9,
+          "resource_demands": [
+            7,
+            0,
+            0,
+            8
+          ],
+          "successors": [
+            [
+              3,
+              86
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.41",
+          "duration": 8,
+          "resource_demands": [
+            0,
+            2,
+            0,
+            3
+          ],
+          "successors": [
+            [
+              3,
+              51
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.42",
+          "duration": 1,
+          "resource_demands": [
+            0,
+            3,
+            6,
+            10
+          ],
+          "successors": [
+            [
+              3,
+              48
+            ],
+            [
+              3,
+              61
+            ],
+            [
+              3,
+              80
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.43",
+          "duration": 4,
+          "resource_demands": [
+            9,
+            0,
+            0,
+            0
+          ],
+          "successors": [
+            [
+              3,
+              53
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.44",
+          "duration": 3,
+          "resource_demands": [
+            4,
+            5,
+            2,
+            0
+          ],
+          "successors": [
+            [
+              3,
+              71
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.45",
+          "duration": 5,
+          "resource_demands": [
+            5,
+            0,
+            6,
+            7
+          ],
+          "successors": [
+            [
+              3,
+              55
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.46",
+          "duration": 9,
+          "resource_demands": [
+            5,
+            8,
+            8,
+            2
+          ],
+          "successors": [
+            [
+              3,
+              71
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.47",
+          "duration": 3,
+          "resource_demands": [
+            9,
+            6,
+            10,
+            4
+          ],
+          "successors": [
+            [
+              3,
+              56
+            ],
+            [
+              3,
+              75
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.48",
+          "duration": 7,
+          "resource_demands": [
+            2,
+            10,
+            3,
+            8
+          ],
+          "successors": [
+            [
+              3,
+              50
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.49",
+          "duration": 10,
+          "resource_demands": [
+            8,
+            10,
+            6,
+            6
+          ],
+          "successors": [
+            [
+              3,
+              51
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.50",
+          "duration": 10,
+          "resource_demands": [
+            1,
+            8,
+            0,
+            4
+          ],
+          "successors": [
+            [
+              3,
+              70
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.51",
+          "duration": 7,
+          "resource_demands": [
+            8,
+            4,
+            0,
+            8
+          ],
+          "successors": [
+            [
+              3,
+              72
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.52",
+          "duration": 6,
+          "resource_demands": [
+            9,
+            4,
+            8,
+            6
+          ],
+          "successors": [
+            [
+              3,
+              79
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.53",
+          "duration": 3,
+          "resource_demands": [
+            0,
+            7,
+            0,
+            10
+          ],
+          "successors": [
+            [
+              3,
+              91
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.54",
+          "duration": 2,
+          "resource_demands": [
+            6,
+            4,
+            5,
+            0
+          ],
+          "successors": [
+            [
+              3,
+              67
+            ],
+            [
+              3,
+              72
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.55",
+          "duration": 3,
+          "resource_demands": [
+            1,
+            0,
+            9,
+            0
+          ],
+          "successors": [
+            [
+              3,
+              77
+            ],
+            [
+              3,
+              82
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.56",
+          "duration": 1,
+          "resource_demands": [
+            6,
+            0,
+            0,
+            2
+          ],
+          "successors": [
+            [
+              3,
+              57
+            ],
+            [
+              3,
+              85
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.57",
+          "duration": 6,
+          "resource_demands": [
+            0,
+            9,
+            8,
+            0
+          ],
+          "successors": [
+            [
+              3,
+              81
+            ],
+            [
+              3,
+              89
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.58",
+          "duration": 7,
+          "resource_demands": [
+            4,
+            5,
+            0,
+            7
+          ],
+          "successors": [
+            [
+              3,
+              70
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.59",
+          "duration": 5,
+          "resource_demands": [
+            0,
+            8,
+            0,
+            0
+          ],
+          "successors": [
+            [
+              3,
+              66
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.60",
+          "duration": 6,
+          "resource_demands": [
+            0,
+            10,
+            7,
+            9
+          ],
+          "successors": [
+            [
+              3,
+              74
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.61",
+          "duration": 8,
+          "resource_demands": [
+            8,
+            1,
+            5,
+            5
+          ],
+          "successors": [
+            [
+              3,
+              64
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.62",
+          "duration": 7,
+          "resource_demands": [
+            5,
+            4,
+            2,
+            6
+          ],
+          "successors": [
+            [
+              3,
+              66
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.63",
+          "duration": 7,
+          "resource_demands": [
+            10,
+            3,
+            3,
+            0
+          ],
+          "successors": [
+            [
+              3,
+              84
+            ],
+            [
+              3,
+              90
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.64",
+          "duration": 7,
+          "resource_demands": [
+            2,
+            0,
+            7,
+            1
+          ],
+          "successors": [
+            [
+              3,
+              71
+            ],
+            [
+              3,
+              72
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.65",
+          "duration": 4,
+          "resource_demands": [
+            7,
+            6,
+            1,
+            7
+          ],
+          "successors": [
+            [
+              3,
+              86
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.66",
+          "duration": 6,
+          "resource_demands": [
+            8,
+            9,
+            5,
+            1
+          ],
+          "successors": [
+            [
+              3,
+              73
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.67",
+          "duration": 7,
+          "resource_demands": [
+            3,
+            4,
+            0,
+            0
+          ],
+          "successors": [
+            [
+              3,
+              81
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.68",
+          "duration": 6,
+          "resource_demands": [
+            6,
+            6,
+            6,
+            0
+          ],
+          "successors": [
+            [
+              3,
+              73
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.69",
+          "duration": 6,
+          "resource_demands": [
+            3,
+            10,
+            6,
+            2
+          ],
+          "successors": [
+            [
+              3,
+              83
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.70",
+          "duration": 3,
+          "resource_demands": [
+            4,
+            6,
+            0,
+            9
+          ],
+          "successors": [
+            [
+              3,
+              76
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.71",
+          "duration": 1,
+          "resource_demands": [
+            10,
+            0,
+            10,
+            4
+          ],
+          "successors": [
+            [
+              3,
+              78
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.72",
+          "duration": 4,
+          "resource_demands": [
+            0,
+            8,
+            0,
+            10
+          ],
+          "successors": [
+            [
+              3,
+              84
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.73",
+          "duration": 6,
+          "resource_demands": [
+            0,
+            4,
+            7,
+            1
+          ],
+          "successors": [
+            [
+              3,
+              87
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.74",
+          "duration": 1,
+          "resource_demands": [
+            9,
+            9,
+            3,
+            0
+          ],
+          "successors": [
+            [
+              3,
+              75
+            ],
+            [
+              3,
+              77
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.75",
+          "duration": 4,
+          "resource_demands": [
+            10,
+            3,
+            5,
+            0
+          ],
+          "successors": [
+            [
+              3,
+              80
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.76",
+          "duration": 7,
+          "resource_demands": [
+            0,
+            1,
+            10,
+            4
+          ],
+          "successors": [
+            [
+              3,
+              77
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.77",
+          "duration": 8,
+          "resource_demands": [
+            10,
+            7,
+            0,
+            0
+          ],
+          "successors": [
+            [
+              3,
+              83
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.78",
+          "duration": 9,
+          "resource_demands": [
+            9,
+            0,
+            10,
+            10
+          ],
+          "successors": [
+            [
+              3,
+              83
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.79",
+          "duration": 10,
+          "resource_demands": [
+            6,
+            5,
+            10,
+            3
+          ],
+          "successors": [
+            [
+              3,
+              85
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.80",
+          "duration": 10,
+          "resource_demands": [
+            4,
+            9,
+            1,
+            0
+          ],
+          "successors": [
+            [
+              3,
+              82
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.81",
+          "duration": 7,
+          "resource_demands": [
+            5,
+            2,
+            5,
+            0
+          ],
+          "successors": [
+            [
+              3,
+              82
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.82",
+          "duration": 5,
+          "resource_demands": [
+            0,
+            3,
+            9,
+            4
+          ],
+          "successors": [
+            [
+              3,
+              86
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.83",
+          "duration": 9,
+          "resource_demands": [
+            5,
+            1,
+            0,
+            0
+          ],
+          "successors": [
+            [
+              3,
+              89
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.84",
+          "duration": 2,
+          "resource_demands": [
+            0,
+            7,
+            1,
+            4
+          ],
+          "successors": [
+            [
+              3,
+              88
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.85",
+          "duration": 8,
+          "resource_demands": [
+            7,
+            4,
+            0,
+            0
+          ],
+          "successors": [
+            [
+              3,
+              87
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.86",
+          "duration": 9,
+          "resource_demands": [
+            0,
+            6,
+            0,
+            7
+          ],
+          "successors": [
+            [
+              3,
+              87
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.87",
+          "duration": 2,
+          "resource_demands": [
+            6,
+            1,
+            4,
+            5
+          ],
+          "successors": [
+            [
+              3,
+              90
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.88",
+          "duration": 2,
+          "resource_demands": [
+            0,
+            9,
+            7,
+            0
+          ],
+          "successors": [
+            [
+              3,
+              89
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.89",
+          "duration": 2,
+          "resource_demands": [
+            9,
+            0,
+            3,
+            6
+          ],
+          "successors": [
+            [
+              3,
+              92
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.90",
+          "duration": 10,
+          "resource_demands": [
+            2,
+            10,
+            2,
+            0
+          ],
+          "successors": [
+            [
+              3,
+              92
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.91",
+          "duration": 7,
+          "resource_demands": [
+            0,
+            1,
+            3,
+            6
+          ],
+          "successors": [
+            [
+              3,
+              92
+            ]
+          ]
+        },
+        {
+          "activity_id": "3.92",
+          "duration": 0,
+          "resource_demands": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "successors": []
+        }
+      ]
+    }
+  ]
+}

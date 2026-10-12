@@ -1,0 +1,226 @@
+[
+  {
+    "name": "SA_base",
+    "method": "SAMA_EA",
+    "budget_mode": "adaptive",
+    "stagnation_scale": 50.0,
+    "decay_rate": 1.0,
+    "entropy_coef": 0.5
+  },
+  {
+    "name": "SA_uniform",
+    "method": "SAMA_EA",
+    "budget_mode": "uniform",
+    "stagnation_scale": 50.0,
+    "decay_rate": 1.0,
+    "entropy_coef": 0.5
+  },
+  {
+    "name": "SA_progress",
+    "method": "SAMA_EA",
+    "budget_mode": "progress",
+    "stagnation_scale": 50.0,
+    "decay_rate": 1.0,
+    "entropy_coef": 0.5
+  },
+  {
+    "name": "SA_tau25",
+    "method": "SAMA_EA",
+    "budget_mode": "adaptive",
+    "stagnation_scale": 25.0,
+    "decay_rate": 1.0,
+    "entropy_coef": 0.5
+  },
+  {
+    "name": "SA_tau100",
+    "method": "SAMA_EA",
+    "budget_mode": "adaptive",
+    "stagnation_scale": 100.0,
+    "decay_rate": 1.0,
+    "entropy_coef": 0.5
+  },
+  {
+    "name": "SA_decay05",
+    "method": "SAMA_EA",
+    "budget_mode": "adaptive",
+    "stagnation_scale": 50.0,
+    "decay_rate": 0.5,
+    "entropy_coef": 0.5
+  },
+  {
+    "name": "SA_decay20",
+    "method": "SAMA_EA",
+    "budget_mode": "adaptive",
+    "stagnation_scale": 50.0,
+    "decay_rate": 2.0,
+    "entropy_coef": 0.5
+  },
+  {
+    "name": "SA_l0",
+    "method": "SAMA_EA",
+    "budget_mode": "adaptive",
+    "stagnation_scale": 50.0,
+    "decay_rate": 1.0,
+    "entropy_coef": 0.0
+  },
+  {
+    "name": "SA_l025",
+    "method": "SAMA_EA",
+    "budget_mode": "adaptive",
+    "stagnation_scale": 50.0,
+    "decay_rate": 1.0,
+    "entropy_coef": 0.25
+  },
+  {
+    "name": "SA_l1",
+    "method": "SAMA_EA",
+    "budget_mode": "adaptive",
+    "stagnation_scale": 50.0,
+    "decay_rate": 1.0,
+    "entropy_coef": 1.0
+  },
+  {
+    "name": "MA_base",
+    "method": "MA_EA",
+    "budget_mode": "adaptive",
+    "stagnation_scale": 50.0,
+    "decay_rate": 1.0,
+    "entropy_coef": 0.5
+  },
+  {
+    "name": "MA_l0",
+    "method": "MA_EA",
+    "budget_mode": "adaptive",
+    "stagnation_scale": 50.0,
+    "decay_rate": 1.0,
+    "entropy_coef": 0.0
+  },
+  {
+    "name": "MA_l025",
+    "method": "MA_EA",
+    "budget_mode": "adaptive",
+    "stagnation_scale": 50.0,
+    "decay_rate": 1.0,
+    "entropy_coef": 0.25
+  },
+  {
+    "name": "MA_l1",
+    "method": "MA_EA",
+    "budget_mode": "adaptive",
+    "stagnation_scale": 50.0,
+    "decay_rate": 1.0,
+    "entropy_coef": 1.0
+  },
+  {
+    "name": "SA_grid_a05_tau25",
+    "method": "SAMA_EA",
+    "budget_mode": "adaptive",
+    "stagnation_scale": 25.0,
+    "decay_rate": 0.5,
+    "entropy_coef": 0.5
+  },
+  {
+    "name": "SA_grid_a05_tau100",
+    "method": "SAMA_EA",
+    "budget_mode": "adaptive",
+    "stagnation_scale": 100.0,
+    "decay_rate": 0.5,
+    "entropy_coef": 0.5
+  },
+  {
+    "name": "SA_grid_a20_tau25",
+    "method": "SAMA_EA",
+    "budget_mode": "adaptive",
+    "stagnation_scale": 25.0,
+    "decay_rate": 2.0,
+    "entropy_coef": 0.5
+  },
+  {
+    "name": "SA_grid_a20_tau100",
+    "method": "SAMA_EA",
+    "budget_mode": "adaptive",
+    "stagnation_scale": 100.0,
+    "decay_rate": 2.0,
+    "entropy_coef": 0.5
+  },
+  {
+    "name": "SA_decay025",
+    "method": "SAMA_EA",
+    "budget_mode": "adaptive",
+    "stagnation_scale": 50.0,
+    "decay_rate": 0.25,
+    "entropy_coef": 0.5
+  },
+  {
+    "name": "SA_decay40",
+    "method": "SAMA_EA",
+    "budget_mode": "adaptive",
+    "stagnation_scale": 50.0,
+    "decay_rate": 4.0,
+    "entropy_coef": 0.5
+  },
+  {
+    "name": "SA_tau125",
+    "method": "SAMA_EA",
+    "budget_mode": "adaptive",
+    "stagnation_scale": 12.5,
+    "decay_rate": 1.0,
+    "entropy_coef": 0.5
+  },
+  {
+    "name": "SA_tau200",
+    "method": "SAMA_EA",
+    "budget_mode": "adaptive",
+    "stagnation_scale": 200.0,
+    "decay_rate": 1.0,
+    "entropy_coef": 0.5
+  },
+  {
+    "name": "SA_l0125",
+    "method": "SAMA_EA",
+    "budget_mode": "adaptive",
+    "stagnation_scale": 50.0,
+    "decay_rate": 1.0,
+    "entropy_coef": 0.125
+  },
+  {
+    "name": "SA_l2",
+    "method": "SAMA_EA",
+    "budget_mode": "adaptive",
+    "stagnation_scale": 50.0,
+    "decay_rate": 1.0,
+    "entropy_coef": 2.0
+  },
+  {
+    "name": "SA_l4",
+    "method": "SAMA_EA",
+    "budget_mode": "adaptive",
+    "stagnation_scale": 50.0,
+    "decay_rate": 1.0,
+    "entropy_coef": 4.0
+  },
+  {
+    "name": "MA_l0125",
+    "method": "MA_EA",
+    "budget_mode": "adaptive",
+    "stagnation_scale": 50.0,
+    "decay_rate": 1.0,
+    "entropy_coef": 0.125
+  },
+  {
+    "name": "MA_l2",
+    "method": "MA_EA",
+    "budget_mode": "adaptive",
+    "stagnation_scale": 50.0,
+    "decay_rate": 1.0,
+    "entropy_coef": 2.0
+  },
+  {
+    "name": "MA_l4",
+    "method": "MA_EA",
+    "budget_mode": "adaptive",
+    "stagnation_scale": 50.0,
+    "decay_rate": 1.0,
+    "entropy_coef": 4.0
+  }
+]
